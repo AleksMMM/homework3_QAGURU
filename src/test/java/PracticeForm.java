@@ -46,6 +46,5 @@ public class PracticeForm extends BaseConfig {
         $(".modal-body").shouldHave(text("Victory cq 5"));
         $(".modal-body").shouldHave(text("Uttar Pradesh Agra"));
         $("#closeLargeModal").click();
-        System.out.println();
     }
 }
